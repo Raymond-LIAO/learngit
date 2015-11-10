@@ -9,3 +9,7 @@ git 学习笔记
 然后就需要提交： 使用 git commit -m "comments" 评论和记录是非常重要的！
 
 需要注意的事，文件必须一个一个add 但是可以一次commit多个文件。
+
+使用命令 git status 查看工作区的状态， 还有 git diff 查看具体区别。
+
+commit 的本质是一个快照， 可以通过 git log 来查看commit了多少次，分别是什么。另外后面加上 --pretty=oneline 可以查看版本号。
