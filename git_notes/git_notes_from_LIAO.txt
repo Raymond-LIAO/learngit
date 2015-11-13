@@ -35,3 +35,7 @@ commit 的本质是一个快照， 可以通过 `git log` 来查看commit了多�
 其实`git checkout`是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
 
 ##远程仓库
+也就是正确地使用Github：
+- 和远程仓库先关联：`git remote add origin git@github.com:....git`
+- 把本地库的内容推送到远程：第一次：`git push -u origin master`
+- 之后只需要： `git push origin master`
