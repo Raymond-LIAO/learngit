@@ -39,3 +39,10 @@ commit 的本质是一个快照， 可以通过 `git log` 来查看commit了多�
 - 和远程仓库先关联：`git remote add origin git@github.com:....git`
 - 把本地库的内容推送到远程：第一次：`git push -u origin master`
 - 之后只需要： `git push origin master`
+- 还有其他的选项，比如：git push -f origin master` force强制推送
+
+##分支管理
+###创建与合并分支
+最开始的时候，只有master分支一条线，Git用master指向最新的提交，再用HEAD指向master
+伴随着我们不断的提交，master这个分支变得越来越长，试试手创建一个新的分支啦！
+
